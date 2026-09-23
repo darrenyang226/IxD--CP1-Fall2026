@@ -2,10 +2,7 @@ header {
             background-color:burlywood;
         }
 
-        main {
-            width: 960px;
-            margin: 0px auto;
-        }
+        
 
         img {
             max-width: 100%;
@@ -14,4 +11,23 @@ header {
         p{
             color: rebeccapurple;
             font-family: "Montserrat", "Open Sans", "Arial", sans-serif;
+        }
+
+ @media (min-width: 744px){
+     p{
+        columns: 2;
+        color: saddlebrown;
+        }
+
+        }
+
+ @media (min-width: 1060px){
+    main {
+            width: 960px;
+            margin: 0px auto;
+        }
+        p{
+        columns: 3;
+        color: saddlebrown;
+        }
         }
