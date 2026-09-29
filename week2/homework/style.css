@@ -25,6 +25,11 @@ header {
         }
 
  @media (min-width: 1060px){
+    header {
+            background-color:rgb(250, 115, 115);
+
+         
+        }
    
     main {
             width: 960px;
