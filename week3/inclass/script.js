@@ -23,7 +23,7 @@
             }
 
             let togglingImage = (event) => {
-                console.log(event.target)
+        
 
                
                 if(imgTT.alt == "First Brainrot Image"){
