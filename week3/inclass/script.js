@@ -28,7 +28,7 @@
                
                 if(imgTT.alt == "First Brainrot Image"){
                     imgTT.alt = "Second Brainrot Image"
-                    imgTT.src = "images/brainrot2.jpeg"
+                    imgTT.src = "images/brainrot2.jpg"
                 }
                 else{
                     imgTT.alt = "First Brainrot Image"
@@ -40,7 +40,7 @@
 
             console.log(imgTT)
 
-            imgTT.addEventListener("click," togglingImage)
+            imgTT.addEventListener("click", togglingImage)
             colorBtn.addEventListener("click", changingColor)
             textBtn.addEventListener("click", addingText)
             toggleBtn.addEventListener("click", togglingImage)
