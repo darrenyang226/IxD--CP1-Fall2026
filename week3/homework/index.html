@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <!-- Navigation bar from the wireframe -->
+    <header>
+        <span id="logo">LOGO</span>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- The four small thumbnails -->
+        <section id="thumbnails">
+            <img class="thumb" id="thumb1" src="images/Guinea_1.png" alt="Gulu and Megu chilling">
+            <img class="thumb" id="thumb2" src="images/Guinea_2.png" alt="Gulu craving strawberry">
+            <img class="thumb" id="thumb3" src="images/Guinea_3.png" alt="Dobby mewing">
+            <img class="thumb" id="thumb4" src="images/Guinea_4.png" alt="Megu looking like Kirby">
+        </section>
+
+        <!-- The large display area -->
+        <img id="bigImage" src="images/Guinea_1.png" alt="Gulu and Megu chilling">
+
+        <!-- Controls for the automatic slideshow -->
+        <div id="controls">
+            <button id="pauseBtn">Pause</button>
+            <button id="playBtn">Play</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
