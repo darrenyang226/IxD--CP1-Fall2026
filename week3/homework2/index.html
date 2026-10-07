@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript puzzle</title>
+</head>
+<body>
+    <main>
+        <h1>Rebus Puzzle</h1>
+        <p>Emoji to words, you got this!</p>
+
+        <form>
+            <!-- Question 1 -->
+            <fieldset id="question1">
+                <legend>Puzzle 1: 🌞 + 🌻</legend>
+                <div>
+                    <input type="radio" id="choice1a" name="q1" value="sunflower">
+                    <label for="choice1a">sunflower</label>
+
+                    <input type="radio" id="choice1b" name="q1" value="sunshine">
+                    <label for="choice1b">sunshine</label>
+
+                    <input type="radio" id="choice1c" name="q1" value="golden">
+                    <label for="choice1c">golden</label>
+                </div>
+            </fieldset>
+
+            <!-- Question 2 -->
+            <fieldset id="question2">
+                <legend>Puzzle 2: ⭐ + 🐟</legend>
+                <div>
+                    <input type="radio" id="choice2a" name="q2" value="goldfish">
+                    <label for="choice2a">goldfish</label>
+
+                    <input type="radio" id="choice2b" name="q2" value="starfish">
+                    <label for="choice2b">starfish</label>
+
+                    <input type="radio" id="choice2c" name="q2" value="clownfish">
+                    <label for="choice2c">clownfish</label>
+                </div>
+            </fieldset>
+
+            <button id="checkBtn">Check my answers</button>
+        </form>
+
+        <pre id="log"></pre>
+
+        <!-- Hidden until both answers are right -->
+        <section id="prize" class="hidden">
+            <h2>You cracked it! 🎉</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
